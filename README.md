@@ -1,4 +1,4 @@
-### graphql-book-app-client
+# graphql-book-app-client
 
 ## Server is located at https://github.com/Doesntmeananything/graphql-book-app-server
 
