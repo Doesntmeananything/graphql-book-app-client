@@ -1,6 +1,6 @@
 # graphql-book-app-client
 
-## Server is located at https://github.com/Doesntmeananything/graphql-book-app-server
+- Server is located at https://github.com/Doesntmeananything/graphql-book-app-server
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
