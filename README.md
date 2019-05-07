@@ -5,7 +5,7 @@
 ## How to run
 
 1. Clone/download server files.
-2. Run server by launching node trough `App.js` entry point.
+2. Run server by launching Node trough `App.js` entry point.
 3. Start client dev build with `npm start`.
 4. Begin developing!
 
