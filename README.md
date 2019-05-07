@@ -9,4 +9,8 @@
 3. Start client dev build with `npm start`.
 4. Begin developing!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Built with:
+
+- React and create-react-app
+- GraphQL
+- Apollo
