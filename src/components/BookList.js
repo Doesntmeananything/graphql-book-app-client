@@ -11,14 +11,24 @@ const getBooksQuery = gql`
   }
 `;
 
-function BookList() {
-  return (
-    <div>
-      <ul id="book-listt">
-        <li>Book name</li>
-      </ul>
-    </div>
-  );
+class BookList extends React.Component {
+  displayBooks() {
+    const { data } = this.props;
+    return data.loading ? (
+      <div>Loading data...</div>
+    ) : (
+      data.books.map(book => {
+        return <li key={book.id}>{book.name}</li>;
+      })
+    );
+  }
+  render() {
+    return (
+      <div>
+        <ul id="book-list">{this.displayBooks()}</ul>
+      </div>
+    );
+  }
 }
 
 export default graphql(getBooksQuery)(BookList);
